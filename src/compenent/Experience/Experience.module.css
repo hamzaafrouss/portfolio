@@ -1,0 +1,42 @@
+.experienceContainer{
+  width: 80%;
+  margin: 0 auto;
+  padding : 15px; 
+  background-color: #FFF;
+  border-radius: 10px;
+  display:  flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.experienceContainer .infoContainer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.experienceContainer .infoContainer a,.experienceContainer .infoContainer p {
+  font-size: 17px;
+}
+.skillContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.skill {
+  padding: 7px;
+  margin: 0;
+  border-radius: 7px;
+  font-size: 16px;
+  background-color: #362fd9;
+  color: #fff;
+}
+.experienceContainer > img{
+  object-fit: cover;
+  width: 170px;
+  height: 160px;
+}

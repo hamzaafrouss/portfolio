@@ -1,0 +1,28 @@
+.skillDesc {
+  margin-left : 40px;
+  padding: 0 10px;
+  position: relative;
+  font-size: 19px;
+  line-height: 1.7;
+  color: #7D7C7C;
+  border-left: 3px solid #352fd979;
+}
+.skillDesc::after{
+  content: "<h3>";
+  color : #352fd979;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  top : -27px;
+  left : -23px; 
+}
+
+.skillDesc::before{
+  content: "</h3>";
+  color : #352fd979;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  bottom : -25px;
+  left : -23px; 
+}

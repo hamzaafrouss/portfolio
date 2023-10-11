@@ -1,32 +1,57 @@
 function Navbar2() {
-    return(
-        <nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class=" container collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
-    <div className="d-flex justify-content-center">
-    <ul class="navbar-nav">
+  const navItemStyle = {
+    padding: "5px 10px",
+    textDecoration: "none",
+    color: "#000",
+    fontSize: "18px",
+  };
+
+  return (
+    <nav
+      style={{
+        padding: "15px 30px",
+        width: "100%",
+        display: "flex",
+        direction: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+      }}
+    >
+      <h3>Hamza Afrouss</h3>
+      <ul
+        style={{
+          listStyle: "none",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          margin : "0"
+        }}
+      >
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a style={navItemStyle} aria-current="page" href="#about">
+            About
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a style={navItemStyle} href="#expertise">
+            Expertise
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a style={navItemStyle} href="#work">
+            Work
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link ">Contact</a>
+          <a style={navItemStyle} href="#experience">
+            Experience
+          </a>
+        </li>
+        <li class="nav-item">
+          <a style={navItemStyle} href = "contact">Contact</a>
         </li>
       </ul>
-    </div>
-    </div>
-  </div>
-</nav>
-    )
-    
+    </nav>
+  );
 }
-export default Navbar2
+export default Navbar2;
