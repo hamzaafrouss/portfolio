@@ -36,7 +36,7 @@ const Skills = () => {
               marginBottom: "40px",
             }}
           >
-            <p>Icon</p>
+            <p></p>
             <h2
               style={{
                 fontSize: "27px",
@@ -45,11 +45,11 @@ const Skills = () => {
                 textTransform: "capitalize",
               }}
             >
-              Software Development
+              Backend Dev
             </h2>
           </div>
           <p className={styles.skillDesc}>
-            Experienced in both functional and OOP: JavaScript, TypeScript.
+            Experienced in NodeJs, ExpressJs, Laravel.
           </p>
         </div>
 
@@ -64,7 +64,6 @@ const Skills = () => {
               marginBottom: "40px",
             }}
           >
-            <p>Icon</p>
             <h2
               style={{
                 fontSize: "27px",
@@ -77,9 +76,10 @@ const Skills = () => {
             </h2>
           </div>
           <p className={styles.skillDesc}>
-          Experienced in HTML, CSS, JS, ReactJS framework.
+          Experienced in HTML, CSS, MatrialUAI, JS, ReactJS .
           </p>
         </div>
+        
       </div>
     </div>
   );

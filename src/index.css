@@ -7,3 +7,5 @@
   background: #FF6666;
   color: #fff;
 }
+
+html {scroll-behavior: smooth;}

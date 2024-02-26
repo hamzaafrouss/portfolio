@@ -1,0 +1,30 @@
+.ContactContainer{
+    width: 80%;
+    margin: 0 auto;
+    padding : 15px; 
+    background-color: #FFF;
+    border-radius: 10px;
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .ContactContainer .infoContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .ContactContainer .infoContainer a,.ContactContainer .infoContainer p {
+    font-size: 17px;
+  }
+  .skillContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+  }
+  
+  
+  

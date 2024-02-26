@@ -5,6 +5,7 @@ import About from "./compenent/About.js";
 import Skills from "./compenent/Skills/Skills.js";
 import Work from "./compenent/Work/Work.js";
 import Experience from "./compenent/Experience/Experience.js";
+import Contact from "./compenent/Contact/Contact.js";
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
       <Skills />
       <Work />
       <Experience />
+      <Contact />
       {/* <Home /> */}
     </div>
   );

@@ -30,50 +30,50 @@ const Experience = () => {
           <div>
             <div className={styles.infoContainer}>
               <p>Marrakech, Morocco</p>
-              <p>https://google.com</p>
+              <p>https://UPXP-REWARD.com</p>
             </div>
 
             <p
               style={{ lineHeight: "1.7", color: "#7D7C7C", fontSize: "19px" }}
             >
-              Developing the front of a web application for the management of a
-              company invoices with html, Css and Javascript.
+              Developing the front and back-end of a web application for the management of a
+              company invoices with html, Css, matrialUAI, React.js, and Node.js .
             </p>
 
             <div className={styles.skillContainer}>
-              {["Html", "Css", "Javascript", "ReactJs", "Laravel", "MySql"].map(
+              {["Html", "Css","MatrialUAI",  "ReactJs", "NodeJs", "ExpressJs", "MySql", "MongoDb"].map(
                 (item) => {
                   return <p className={styles.skill}>{item}</p>;
                 }
               )}
             </div>
           </div>
-          <img src="/logotst.jpg" />
+          <img src="/upxp.jpeg" />
         </div>
 
         <div className={styles.experienceContainer}>
           <div>
             <div className={styles.infoContainer}>
               <p>Marrakech, Morocco</p>
-              <p>https://google.com</p>
+              <p>https://FSJES.com</p>
             </div>
 
             <p
               style={{ lineHeight: "1.7", color: "#7D7C7C", fontSize: "19px" }}
             >
               Developing the front of a web application for the management of a
-              company invoices with html, Css and Javascript.
+              Meting invoices with Laravel.
             </p>
 
             <div className={styles.skillContainer}>
-              {["Html", "Css", "Javascript", "ReactJs", "Laravel", "MySql"].map(
+              {["Html", "Css", "Bootstrap","ReactJs","Laravel", "MySql"].map(
                 (item) => {
                   return <p className={styles.skill}>{item}</p>;
                 }
               )}
             </div>
           </div>
-          <img src="/logotst.jpg" />
+          <img src="/fsjes.png" />
         </div>
       </div>
     </div>
